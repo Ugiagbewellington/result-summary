@@ -136,7 +136,7 @@ body{
     margin-top: 10px;
    font-size: 17px;
 }
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1440px),(max-width: 1368px),(max-width: 541px),{
 #all-items{
     background:hsl(0, 0%, 100%);
     font-family: 'Hanken Grotesk', sans-serif;
@@ -145,12 +145,12 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    box-shadow: none;
 
 }
-    
 
 }
-@media screen and (max-width: 375px ), (max-width: 390px ),(max-width: 517px ){
+@media screen and (max-width: 375px ), (max-width: 390px ),(max-width: 517px ),(max-width: 540px ){
 
 
 #all-items{
@@ -159,12 +159,10 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: none;
 }
 .attribution{
     font-size: 10px;
-    
-
-
 }
-     
+ 
 }
